@@ -37,43 +37,42 @@
   </div>
   <section class="container">
     <h1 class="pb-2">1.</h1>
-    <div class="row pb-4">
-      <div class="col-12">
-        <button class="btn">
+    <div class="row">
+      <div class="col-sm-12  mb20">
+        <button class="btn btn-default highlight">
           <i class="svg-load"></i>Нажмите для загрузки картинок
         </button>
       </div>
     </div>
     <div class="row">
-      <div class="col-12">
+      <div class="col-sm-12">
         <div class="drop-zone empty">... или перетащите картинки сюда</div>
       </div>
     </div>
     <hr class="mb-4" />
     <h1 class="pb-2">2.</h1>
     <div class="row pb-4">
-      <div class="col-12 d-md-block d-lg-none mb20">
-        <button class="btn">
+      <div class="col-sm-12 d-md-block d-lg-none mb20">
+        <button class="btn btn-default">
           <i class="fa svg-camera"></i>
           С камеры
         </button>
-        <button class="btn">
+        <button class="btn btn-default">
           <i class="fa svg-gallery"></i>
           Из галереи
         </button>
       </div>
-      <div class="col-12 d-none d-lg-block mb20">
-        <button class="btn">
+      <div class="col-sm-12 d-none d-lg-block mb20">
+        <button class="btn btn-default">
           <i class="svg-load"></i>Нажмите для загрузки картинок
         </button>
       </div>
-
-      <div class="col-12">
+      <div class="col-sm-12">
         <div class="drop-zone">
           <div class="row">
-            <div class="col">
+            <div class="col-sm-12">
               <div class="row gutter-10">
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                   <div class="load-image">
                     <img src="../img/image-1.jpg" />
                     <div class="progress">
@@ -84,13 +83,14 @@
                         aria-valuemin="0"
                         aria-valuemax="100"
                       ></div>
+                      <div class="progress-error"></div>
                     </div>
                     <i class="svg-turn-left  inactive"></i>
                     <i class="svg-turn-right inactive"></i>
                     <i class="svg-trash inactive"></i>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                   <div class="load-image">
                     <img src="../img/image-2.jpg" />
                     <div class="progress">
@@ -102,13 +102,14 @@
                         aria-valuemin="0"
                         aria-valuemax="100"
                       ></div>
+                      <div class="progress-error"></div>
                     </div>
                     <i class="svg-turn-left inactive"></i>
                     <i class="svg-turn-right inactive"></i>
                     <i class="svg-trash"></i>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                   <div class="load-image">
                     <img src="../img/image-3.jpg" />
                     <div class="progress">
@@ -120,13 +121,14 @@
                         aria-valuemin="0"
                         aria-valuemax="100"
                       ></div>
+                      <div class="progress-error"></div>
                     </div>
                     <i class="svg-turn-left"></i>
                     <i class="svg-turn-right"></i>
                     <i class="svg-trash"></i>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                   <div class="load-image load-error-refresh">
                     <img src="../img/image-1.jpg" />
                     <div class="progress">
@@ -138,13 +140,14 @@
                         aria-valuemin="0"
                         aria-valuemax="100"
                       ></div>
+                      <div class="progress-error">Ошибка загрузки</div>
                     </div>
                     <i class="svg-turn-left"></i>
                     <i class="svg-turn-left inactive"></i>
-                    <i class="svg-turn-right inactive"></i>
+                    <i class="svg-trash"></i>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                   <div class="load-image load-error-stop">
                     <img src="../img/image-2.jpg" />
                     <div class="progress">
@@ -156,13 +159,16 @@
                         aria-valuemin="0"
                         aria-valuemax="100"
                       ></div>
+                      <div class="progress-error">
+                        Невозможно загрузить картинку
+                      </div>
                     </div>
                     <i class="svg-turn-left inactive"></i>
                     <i class="svg-turn-right inactive"></i>
                     <i class="svg-trash"></i>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                   <div class="load-image">
                     <img src="../img/image-2.jpg" />
                     <div class="progress">
@@ -174,13 +180,14 @@
                         aria-valuemin="0"
                         aria-valuemax="100"
                       ></div>
+                      <div class="progress-error"></div>
                     </div>
                     <i class="svg-turn-left inactive"></i>
                     <i class="svg-turn-right inactive"></i>
                     <i class="svg-trash"></i>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                   <div class="load-image">
                     <img src="../img/image-3.jpg" />
                     <div class="progress">
@@ -192,13 +199,14 @@
                         aria-valuemin="0"
                         aria-valuemax="100"
                       ></div>
+                      <div class="progress-error"></div>
                     </div>
                     <i class="svg-turn-left"></i>
                     <i class="svg-turn-right"></i>
                     <i class="svg-trash"></i>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                   <div class="load-image load-error-refresh">
                     <img src="../img/image-1.jpg" />
                     <div class="progress">
@@ -210,13 +218,16 @@
                         aria-valuemin="0"
                         aria-valuemax="100"
                       ></div>
+                      <div class="progress-error">
+                        Ошибка загрузки
+                      </div>
                     </div>
                     <i class="svg-turn-left inactive"></i>
                     <i class="svg-turn-right inactive"></i>
                     <i class="svg-trash"></i>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                   <div class="load-image load-error-stop">
                     <img src="../img/image-2.jpg" />
                     <div class="progress">
@@ -228,6 +239,9 @@
                         aria-valuemin="0"
                         aria-valuemax="100"
                       ></div>
+                      <div class="progress-error">
+                        Невозможно загрузить картинку
+                      </div>
                     </div>
                     <i class="svg-turn-left inactive"></i>
                     <i class="svg-turn-right inactive"></i>
