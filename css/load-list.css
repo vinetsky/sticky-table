@@ -110,16 +110,27 @@
   z-index: 11;
 }
 
-.btn i,
+.w-100 {
+  width: 100%;
+}
+
+.load-images .btn {
+  background-color: #eeeeee;
+}
+
+.load-images .btn i,
 .load-image i {
   width: 16px;
   height: 16px;
   margin-right: 8px;
-  display: block;
 }
 
-.btn i {
-  float: left;
+.load-image i {
+  display: block;
+}
+.load-images .btn i {
+  display: inline-block;
+  vertical-align: top;
   margin-top: 2px;
 }
 
