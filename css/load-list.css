@@ -89,10 +89,8 @@
 }
 
 .load-image.load-success .status-text {
-  /* left: calc(10px + 10px + 48xp + 10px);
-  top: 10px; */
   position: relative;
-  bottom: 4px;
+  bottom: 3px;
   font-size: 14px;
 }
 

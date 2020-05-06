@@ -1,0 +1,55 @@
+/* .order-list {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+} */
+
+.order-list b {
+    font-weight: 600;
+}
+
+.order-scroll {
+    height: 600px;
+    overflow-y: auto;
+}
+
+.order-scroll .list-group {
+    margin-bottom: 0;
+    margin-right: 3px;
+}
+
+.order-caption {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    color: #aaaaaa;
+    margin-bottom: 8px;
+    border-bottom: 1px dotted #aaaaaa;
+}
+
+.order-no,
+.order-address,
+.order-comment {
+    margin-bottom: 5px;
+}
+
+.order-status {
+    margin-top: 5px;
+}
+
+.order-status .badge {
+    position: relative;
+    top: -1px;
+    background-color: #337ab7;
+}
+
+.order-status .badge.new {
+    background-color: #337ab7;
+}
+
+.order-status .badge.new {
+    background-color: #337ab7;
+}
+
+.order-status .badge.delivered {
+    background-color: #dff0d8;
+    color: #555;
+}
