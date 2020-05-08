@@ -1,0 +1,155 @@
+body {
+  overflow: hidden;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+.map-open {
+  margin-top: 0;
+}
+
+.map-open > div {
+  height: 36px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  margin-top: 0;
+}
+
+.map-open .glyphicon {
+  position: relative;
+  top: 3px;
+  font-size: 16px;
+}
+
+.ya-transport,
+.ya-maps {
+  display: inline-block;
+  position: relative;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  background-size: contain;
+}
+
+.ya-maps {
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='20' height='20' fill='white'/%3E%3Cpath d='M12.0034 8.30858L15.4451 6.69427C15.4451 9.51572 13.5496 12.433 11.8683 15.2113L8.98547 19.6135L10.2429 11.5803L12.0034 8.30858Z' fill='%23E00000'/%3E%3Cpath d='M9.5238 12.795C12.7941 12.795 15.4451 10.144 15.4451 6.8737C15.4451 3.60345 12.7941 0.952377 9.5238 0.952377C6.25355 0.952377 3.60248 3.60345 3.60248 6.8737C3.60248 10.144 6.25355 12.795 9.5238 12.795Z' fill='%23FF3333'/%3E%3Cpath d='M9.52381 9.20635C10.8121 9.20635 11.8564 8.16199 11.8564 6.8737C11.8564 5.58542 10.8121 4.54106 9.52381 4.54106C8.23552 4.54106 7.19116 5.58542 7.19116 6.8737C7.19116 8.16199 8.23552 9.20635 9.52381 9.20635Z' fill='white'/%3E%3C/svg%3E%0A");
+}
+
+.ya-transport {
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='20' height='20' fill='white'/%3E%3Cpath d='M6.35303 16.8471H2.71655V19H6.35303V16.8471Z' fill='black'/%3E%3Cpath d='M13.6035 16.8471H17.2399V19H13.6035V16.8471Z' fill='black'/%3E%3Cpath d='M1.56467 3.99631H2.12934V7.65845C1.50594 7.65845 1 7.15019 1 6.52208V4.56449C1 4.25155 1.25297 3.99631 1.56467 3.99631Z' fill='%230061DC'/%3E%3Cpath d='M18.3919 3.99631H17.8272V7.65845C18.4506 7.65845 18.9566 7.15019 18.9566 6.52208V4.56449C18.9566 4.25155 18.7036 3.99631 18.3919 3.99631Z' fill='%230061DC'/%3E%3Cpath d='M2.71655 2.42935C2.71655 1.39507 7.38977 1 9.97822 1C12.5328 1 17.2399 1.39507 17.2399 2.42935V16.9581H2.71655V2.42935Z' fill='%23007AFF'/%3E%3Cpath opacity='0.9807' d='M3.5297 3.54574C4.92331 3.15067 7.07584 2.95314 9.98954 2.95314C12.9032 2.95314 15.0558 3.15067 16.4494 3.54574C16.5962 3.58791 16.6978 3.72108 16.6978 3.87423V11.9088C16.6978 12.0974 16.5442 12.2506 16.3568 12.2506H3.62231C3.43484 12.2506 3.28125 12.0974 3.28125 11.9088V3.87423C3.28125 3.7233 3.38289 3.58791 3.5297 3.54574Z' fill='white'/%3E%3Cpath d='M7.97251 15.804H12.0065C12.6728 15.804 13.2285 16.3056 13.2872 16.9581H6.69183C6.7483 16.3056 7.3062 15.804 7.97251 15.804Z' fill='%230061DC'/%3E%3Cpath d='M14.8909 15.8261C15.552 15.8261 16.088 15.2846 16.088 14.6165C16.088 13.9485 15.552 13.4069 14.8909 13.4069C14.2297 13.4069 13.6938 13.9485 13.6938 14.6165C13.6938 15.2846 14.2297 15.8261 14.8909 15.8261Z' fill='black'/%3E%3Cpath d='M14.8909 15.8261C15.552 15.8261 16.088 15.2846 16.088 14.6165C16.088 13.9485 15.552 13.4069 14.8909 13.4069C14.2297 13.4069 13.6938 13.9485 13.6938 14.6165C13.6938 15.2846 14.2297 15.8261 14.8909 15.8261Z' fill='%23F3F3F3'/%3E%3Cpath d='M5.08821 15.8261C5.74936 15.8261 6.28532 15.2846 6.28532 14.6165C6.28532 13.9485 5.74936 13.4069 5.08821 13.4069C4.42707 13.4069 3.89111 13.9485 3.89111 14.6165C3.89111 15.2846 4.42707 15.8261 5.08821 15.8261Z' fill='black'/%3E%3Cpath d='M5.08821 15.8261C5.74936 15.8261 6.28532 15.2846 6.28532 14.6165C6.28532 13.9485 5.74936 13.4069 5.08821 13.4069C4.42707 13.4069 3.89111 13.9485 3.89111 14.6165C3.89111 15.2846 4.42707 15.8261 5.08821 15.8261Z' fill='%23F3F3F3'/%3E%3C/svg%3E%0A");
+}
+
+.delivery-date {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.order-scroll {
+  overflow-y: auto;
+}
+
+.order-scroll .media {
+  padding-top: 15px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.delivery-no {
+  background-color: #e5e5e5;
+  line-height: 24px;
+  width: 24px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.delivery-no span {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+.delivery-time,
+.delivery-phone,
+.delivery-client,
+.delivery-id,
+.delivery-client-comment {
+  color: #808080;
+}
+
+.delivery-time {
+  position: relative;
+  margin-top: 2px;
+}
+
+.delivery-address {
+  font-weight: 500;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+.delivery-client {
+  margin-top: 1px;
+}
+
+.delivery-detail {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.delivery-detail a,
+.delivery-detail a:active,
+.delivery-detail a:hover,
+.delivery-detail a:visited {
+  text-decoration: none;
+  color: #337ab7;
+  font-size: 12px;
+}
+
+.delivery-detail a:before {
+  content: '\e114';
+  display: block;
+  position: relative;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-size: 10px;
+  margin-right: 4px;
+  transition: transform linear 0.15s;
+}
+
+.delivery-detail a[aria-expanded='true']:before {
+  transform: rotate(180deg);
+  top: 0px;
+}
+
+.delivery-client-comment {
+  margin-top: 5px;
+}
+
+.delivery-buttons {
+  margin-top: 15px;
+}
+
+.delivery-buttons button + button {
+  margin-left: 8px;
+}
+
+.delivery-comment {
+  margin-top: 10px;
+}
+
+.delivery-comment label {
+  font-size: 12px;
+  font-weight: normal;
+  color: #808080;
+}
+
+@media (min-width: 1200px) {
+  .delivery-date {
+    margin-top: 0;
+  }
+  .order-scroll .media-list {
+    margin-right: 10px;
+  }
+}

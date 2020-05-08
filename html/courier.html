@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/courier.css" />
+
+    <title>Courier Cabinet</title>
+    <style></style>
+  </head>
+  <body>
+    <section class="container fill-height">
+      <h1>Courier Cabinet</h1>
+
+      <div class="row">
+        <div class="map-embed col-lg-8">
+          <div class="embed-responsive embed-responsive-4by3">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.1551433502614!2d37.615153016398175!3d55.75580709922708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5a87bed58b%3A0xc31476533b734cd2!2z0KbQtdC90YLRgA!5e0!3m2!1sru!2sru!4v1588749367909!5m2!1sru!2sru"
+              :width="100%"
+              :height="300px"
+              frameborder="0"
+              style="border: 0;"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+              style="height: 66vw;"
+            ></iframe>
+          </div>
+          <div class="media map-open">
+            <div class="media-body media-middle">
+              <a href>
+                <i class="glyphicon glyphicon-resize-vertical"></i>
+                Развернуть карту
+              </a>
+            </div>
+            <div class="media-right media-middle">
+              <a href><span class="ya-maps"></span></a>
+            </div>
+            <div class="media-right media-middle">
+              <a href><span class="ya-transport"></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="delivery-date lead">
+            Всего <strong>6</strong> доставок на 7 мая 2020 г.
+          </div>
+          <div class="order-scroll">
+            <ul class="media-list">
+              <li class="media">
+                <div class="media-left">
+                  <div class="delivery-no"><span>1</span></div>
+                </div>
+                <div class="media-body">
+                  <div class="clearfix">
+                    <div class="delivery-time pull-left">17.00 — 21.00</div>
+                    <div class="delivery-id pull-right">#645 311</div>
+                  </div>
+                  <div class="delivery-address">
+                    <a href>ул. Народного Ополчения, 46к1</a>
+                  </div>
+                  <div class="delivery-phone">8(964) 335—24—25</div>
+                  <div class="delivery-client">Борис Борисович Лыков</div>
+                  <div class="delivery-detail">
+                    <a
+                      data-toggle="collapse"
+                      href="#collapse1"
+                      aria-expanded="false"
+                      >Детали заказа</a
+                    >
+                  </div>
+                  <div class="collapse" id="collapse1">
+                    <div class="delivery-client-comment">
+                      Доставить до&nbsp;подъезда и&nbsp;позвонить, клиент
+                      сам&nbsp;спустится и&nbsp;заберет заказ
+                    </div>
+                    <div class="delivery-buttons">
+                      <button type="button" class="btn btn-xs btn-success">
+                        Заказ доставлен
+                      </button>
+                      <button type="button" class="btn btn-xs btn-danger">
+                        Сбой доставки
+                      </button>
+                    </div>
+                    <div class="delivery-comment">
+                      <label for="comment2">Комментарий курьера:</label>
+                      <textarea
+                        id="comment2"
+                        class="form-control"
+                        rows="3"
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="media">
+                <div class="media-left">
+                  <div class="delivery-no"><span>2</span></div>
+                </div>
+                <div class="media-body">
+                  <div class="clearfix">
+                    <div class="delivery-time pull-left">17.00 — 21.00</div>
+                    <div class="delivery-id pull-right">#645 311</div>
+                  </div>
+                  <div class="delivery-address">
+                    <a href>ул. Народного Ополчения, 46к1</a>
+                  </div>
+                  <div class="delivery-phone">8(964) 335—24—25</div>
+                  <div class="delivery-client">Борис Борисович Лыков</div>
+                  <div class="delivery-detail">
+                    <a
+                      data-toggle="collapse"
+                      href="#collapse2"
+                      aria-expanded="false"
+                      >Детали заказа</a
+                    >
+                  </div>
+                  <div class="collapse" id="collapse2">
+                    <div class="delivery-client-comment">
+                      Доставить до&nbsp;подъезда и&nbsp;позвонить, клиент
+                      сам&nbsp;спустится и&nbsp;заберет заказ
+                    </div>
+                    <div class="delivery-buttons">
+                      <button type="button" class="btn btn-xs btn-success">
+                        Заказ доставлен
+                      </button>
+                      <button type="button" class="btn btn-xs btn-danger">
+                        Сбой доставки
+                      </button>
+                    </div>
+                    <div class="delivery-comment">
+                      <label for="comment3">Комментарий курьера:</label>
+                      <textarea
+                        id="comment3"
+                        class="form-control"
+                        rows="3"
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="media">
+                <div class="media-left">
+                  <div class="delivery-no"><span>3</span></div>
+                </div>
+                <div class="media-body">
+                  <div class="clearfix">
+                    <div class="delivery-time pull-left">17.00 — 21.00</div>
+                    <div class="delivery-id pull-right">#645 311</div>
+                  </div>
+                  <div class="delivery-address">
+                    <a href>ул. Народного Ополчения, 46к1</a>
+                  </div>
+                  <div class="delivery-phone">8(964) 335—24—25</div>
+                  <div class="delivery-client">Борис Борисович Лыков</div>
+                  <div class="delivery-detail">
+                    <a
+                      data-toggle="collapse"
+                      href="#collapse3"
+                      aria-expanded="false"
+                      >Детали заказа</a
+                    >
+                  </div>
+                  <div class="collapse" id="collapse3">
+                    <div class="delivery-client-comment">
+                      Доставить до&nbsp;подъезда и&nbsp;позвонить, клиент
+                      сам&nbsp;спустится и&nbsp;заберет заказ
+                    </div>
+                    <div class="delivery-buttons">
+                      <button type="button" class="btn btn-xs btn-success">
+                        Заказ доставлен
+                      </button>
+                      <button type="button" class="btn btn-xs btn-danger">
+                        Сбой доставки
+                      </button>
+                    </div>
+                    <div class="delivery-comment">
+                      <label for="comment1">Комментарий курьера:</label>
+                      <textarea
+                        id="comment1"
+                        class="form-control"
+                        rows="3"
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="media">
+                <!-- <div class="media-left">
+                  <div class="delivery-no"><span>4</span></div>
+                </div> -->
+                <div class="media-body">
+                  <div class="clearfix">
+                    <div class="delivery-time pull-left">17.00 — 21.00</div>
+                    <div class="delivery-id pull-right">#645 311</div>
+                  </div>
+                  <div class="delivery-address">
+                    <a href>ул. Народного Ополчения, 46к1</a>
+                  </div>
+                  <div class="delivery-phone">8(964) 335—24—25</div>
+                  <div class="delivery-client">Борис Борисович Лыков</div>
+                  <div class="delivery-detail">
+                    <a
+                      data-toggle="collapse"
+                      href="#collapse4"
+                      aria-expanded="false"
+                      >Детали заказа</a
+                    >
+                  </div>
+                  <div class="collapse" id="collapse4">
+                    <div class="delivery-client-comment">
+                      Доставить до&nbsp;подъезда и&nbsp;позвонить, клиент
+                      сам&nbsp;спустится и&nbsp;заберет заказ
+                    </div>
+                    <div class="delivery-buttons">
+                      <button type="button" class="btn btn-xs btn-success">
+                        Заказ доставлен
+                      </button>
+                      <button type="button" class="btn btn-xs btn-danger">
+                        Сбой доставки
+                      </button>
+                    </div>
+                    <div class="delivery-comment">
+                      <label for="comment4">Комментарий курьера:</label>
+                      <textarea
+                        id="comment4"
+                        class="form-control"
+                        rows="3"
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="media">
+                <div class="media-left">
+                  <div class="delivery-no"><span>5</span></div>
+                </div>
+                <div class="media-body">
+                  <div class="clearfix">
+                    <div class="delivery-time pull-left">17.00 — 21.00</div>
+                    <div class="delivery-id pull-right">#645 311</div>
+                  </div>
+                  <div class="delivery-address">
+                    <a href>ул. Народного Ополчения, 46к1</a>
+                  </div>
+                  <div class="delivery-phone">8(964) 335—24—25</div>
+                  <div class="delivery-client">Борис Борисович Лыков</div>
+                  <div class="delivery-detail">
+                    <a
+                      data-toggle="collapse"
+                      href="#collapse5"
+                      aria-expanded="false"
+                      >Детали заказа</a
+                    >
+                  </div>
+                  <div class="collapse" id="collapse5">
+                    <div class="delivery-client-comment">
+                      Доставить до&nbsp;подъезда и&nbsp;позвонить, клиент
+                      сам&nbsp;спустится и&nbsp;заберет заказ
+                    </div>
+                    <div class="delivery-buttons">
+                      <button type="button" class="btn btn-xs btn-success">
+                        Заказ доставлен
+                      </button>
+                      <button type="button" class="btn btn-xs btn-danger">
+                        Сбой доставки
+                      </button>
+                    </div>
+                    <div class="delivery-comment">
+                      <label for="comment5">Комментарий курьера:</label>
+                      <textarea
+                        id="comment5"
+                        class="form-control"
+                        rows="3"
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="../js/courier.js"></script>
+  </body>
+</html>
