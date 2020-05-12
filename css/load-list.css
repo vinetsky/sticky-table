@@ -99,6 +99,8 @@
 
 .load-image.load-success .status-text {
   position: relative;
+  top: -2px;
+  left: 0;
   bottom: 3px;
   font-size: 14px;
 }
