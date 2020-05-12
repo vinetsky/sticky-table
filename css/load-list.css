@@ -88,18 +88,19 @@
   display: none;
 }
 
-.load-image.load-success .status-text {
-  position: relative;
-  bottom: 3px;
-  font-size: 14px;
-}
-
+.load-image .status-text,
 .load-image.load-error-stop .status-text,
 .load-image.load-error-refresh .status-text {
   position: absolute;
   left: calc(10px + 10px + 48xp + 10px);
   top: 10px;
   font-size: 12px;
+}
+
+.load-image.load-success .status-text {
+  position: relative;
+  bottom: 3px;
+  font-size: 14px;
 }
 
 .load-image.load-error-refresh:after {
