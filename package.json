@@ -1,0 +1,19 @@
+{
+  "name": "components",
+  "version": "0.0.1",
+  "description": "some blocks for outofbox",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinetsky/sticky-table.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinetsky/sticky-table/issues"
+  },
+  "homepage": "https://github.com/vinetsky/sticky-table#readme"
+}

@@ -1,6 +1,6 @@
 body {
   overflow: hidden;
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
 .map-open {
@@ -108,17 +108,17 @@ body {
 }
 
 .delivery-detail a:before {
-  content: '\e114';
+  content: "\e114";
   display: block;
   position: relative;
   display: inline-block;
-  font-family: 'Glyphicons Halflings';
+  font-family: "Glyphicons Halflings";
   font-size: 10px;
   margin-right: 4px;
   transition: transform linear 0.15s;
 }
 
-.delivery-detail a[aria-expanded='true']:before {
+.delivery-detail a[aria-expanded="true"]:before {
   transform: rotate(180deg);
   top: 0px;
 }
