@@ -1,11 +1,11 @@
-.drop-zone {
+.images-list.droppable {
   border: 2px dotted lightgray;
   border-radius: 0.5rem;
   min-height: 90px;
   padding: 20px 20px 0;
 }
 
-.drop-zone.empty {
+.images-list.empty {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,7 +13,7 @@
   padding-bottom: 0;
 }
 
-.drop-zone.drag {
+.images-list.drag {
   border-color: #28a745;
 }
 
