@@ -1,0 +1,71 @@
+.st-delivered {
+  background-color: #dff0d8;
+}
+
+.st-delivered:hover {
+  background-color: #d6e8cf;
+}
+
+.st-new {
+  background-color: #ffffff;
+}
+
+.st-new:hover {
+  background-color: #f5f5f5;
+}
+
+.st-ondelivery {
+  background-color: #fcf8e3;
+}
+
+.st-ondelivery:hover {
+  background-color: #f3efd9;
+}
+
+.st-awaiting {
+  background-color: #d9edf7;
+}
+
+.st-awaiting:hover {
+  background-color: #cfe4ee;
+}
+
+.st-cancelled {
+  background-color: #f2dede;
+}
+
+.st-cancelled:hover {
+  background-color: #e9d4d4;
+}
+
+.st-closed {
+  background-color: #f5f5f5;
+}
+
+.st-closed:hover {
+  background-color: #ebebeb;
+}
+
+.st-1 {
+  background-color: #d9efea;
+}
+
+.st-1:hover {
+  background-color: #d5e6e1;
+}
+
+.st-2 {
+  background-color: #fff3e5;
+}
+
+.st-2:hover {
+  background-color: #f6e9db;
+}
+
+.st-3 {
+  background-color: #f0e7f9;
+}
+
+.st-3:hover {
+  background-color: #e3dcee;
+}
